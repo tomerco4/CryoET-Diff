@@ -1,3 +1,5 @@
+## 3D Conditional Diffusion Models for Synthetic Cryo-ET Particle Subtomograms
+
 Project layout:
 
     CryoDiff/
