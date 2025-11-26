@@ -2,7 +2,8 @@
 <h1 align="center">
   <img src="logo.png" width="180"><br/>
 </h1>
-Project layout:
+
+#### Project layout:
 
     CryoDiff/
     ├─ README.md
@@ -19,14 +20,14 @@ Project layout:
        ├─ logger.py                 
        └─ visualization.py          # quick central-slice PNGs
 
-Installation:
+#### Installation:
     
     cd CryoET-Diff
     python3 -m venv .venv
     source .venv/bin/activate.csh
     pip install -r requirements.txt
 
-Make sure data layout is:
+#### Make sure data layout is:
     
     dataset/
         TS_69_2.mrc
@@ -34,7 +35,7 @@ Make sure data layout is:
         ...
         particles.csv \
 
-Train:
+#### Train:
     
     python train.py \
       --train_tomo_dir Dataset \
@@ -45,7 +46,7 @@ Train:
       --lr 1e-4 \
       --save_dir outputs
 
-Inference:
+#### Inference:
     
     python generate.py \
       --checkpoint outputs/model_epoch100.pt \
