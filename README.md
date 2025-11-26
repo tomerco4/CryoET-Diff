@@ -17,7 +17,7 @@ Project layout:
 
 Installation:
     
-    cd CryoDiff
+    cd CryoET-Diff
     python3 -m venv .venv
     source .venv/bin/activate.csh
     pip install -r requirements.txt
