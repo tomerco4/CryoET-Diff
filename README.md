@@ -1,6 +1,6 @@
-## 3D Conditional Diffusion Models for Synthetic Cryo-ET Particle Subtomograms
+## 3D Conditional Diffusion Models for Synthetic Cryo-ET Particle Subtomograms 
 <h1 align="center">
-  <img src="page_logo.png" width="1000"><br/>
+  <img src="page_logo.png" width="500"><br/>
 </h1>
 
 #### Project layout:
